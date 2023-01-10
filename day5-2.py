@@ -55,12 +55,7 @@ def main():
                 #Stripper, splitter og henter ut tallene fra hver linje (et godt pythonisk eksempel)
                 procedure  = [int(symbol) for symbol in line.rstrip().split() if symbol.isdigit()] 
                 moveList.append(procedure)
-
-        # matrix =[[ '',   '[D]', ''     ],   
-        #          ['[N]', '[C]' ,   '' ],   
-        #          ['[Z]', '[M]', '[P]']]
-
-        
+       
         matrix = [[ '' ,    '' ,   '' , '[C]',   '' ,   '',  '[N]', '[R]',   '' ],   
                   ['[J]', '[T]',   '' , '[H]',   '' ,   '',  '[P]', '[L]',   '' ],  
                   ['[F]', '[S]', '[T]', '[B]',   '' ,   '',  '[M]', '[D]',   '' ],   
