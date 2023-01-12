@@ -35,7 +35,7 @@ class programExecution():
                                         if self.__pixelCount == self.__value  or self.__pixelCount == self.__value + 1 or self.__pixelCount == self.__value - 1:
                                                 yield print('#', end='')
                                         else:
-                                                #Blank skjerm
+                                        #Ellers blank skjerm
                                                 yield print('.',end='')
                                         self.__pixelCount += 1
                         except StopIteration:
